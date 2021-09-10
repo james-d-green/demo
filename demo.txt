@@ -1,0 +1,35 @@
+### This is a file used to demonstrate the use of git
+
+#1 First we must make a new directory on our local machine
+
+#2 Then we must set our username and email using the commands: (from home directory)
+
+# 'git config --global user.name username' and
+# 'git config --global user.email email'
+
+#3 Next we must initialise the repository using the 'git init' command
+
+#4 The command 'git status' allows you to check the status of our repository
+
+#5 Now we can make a new file by using the command 'touch file'
+
+#6 Then we can add the file to the repository using 'git add file' command
+
+#7 Commit the changes by using the 'git commit' command and add a message using '-m'
+
+# 'git commit -m "your message"'
+
+#8 It is always good practice to keep checking the status of the repository
+
+#9 We can now create a remote repository on github to link to our local repository
+# and copy the url of this remote repository using the green 'code' button
+
+#10 Link the repositories using the command:
+
+# 'git remote add origin https://your_repository_url'
+
+#11 Push the changes that were made on your local repository onto the remote repository
+
+#  git push origin master
+
+#11 After editing a file use 'git status -v' to show changes
